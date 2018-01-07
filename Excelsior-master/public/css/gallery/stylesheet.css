@@ -1,0 +1,43 @@
+
+
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position:fixed; 
+    z-index: 300; 
+    top:0;
+    left:0;
+    background-color:greenyellow;
+    overflow-x: hidden;
+    transition: 0.5s; 
+}
+
+
+.img{
+   height:20%;
+    margin-top:0;
+}
+
+ul{
+    
+    font-size: 24px;
+    
+    
+}
+
+@media screen and (max-width:1000px){
+    
+    .img{
+   height:5%;
+    margin-top:10%;
+}
+    
+ul{
+    
+    font-size: 15px;
+    
+    
+}   
+    
+    
+}
